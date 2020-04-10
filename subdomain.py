@@ -36,3 +36,6 @@ c=0
 for w in a['data']['subdomains']:
 	c+=1
 	print '%s[%s%s%s] %s%s'%(P0,C0,c,P0,W0,w)
+	open("hasil.txt","a+").write(w+"\n")
+print
+print '%s[%s>%s] %sHasil tersimpan di hasil.txt'%(G0,Y0,G0,W0)
