@@ -6,7 +6,7 @@ try:
 	import requests as r
 	import os
 except:
-	os.system('pip2 install requests;python2 admin-finder.py')
+	os.system('pip2 install requests;python2 subdomain.py')
 G0 = "\033[0;32m"
 G1 = "\033[1;32m"
 C0 = "\033[0;36m"
